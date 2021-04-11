@@ -5526,14 +5526,6 @@ blockquote.pullquote.right {
   --blockquote-bg: #3a435a;
   --reward-pop: #3a435a;
   --toc-link-color: rgba(255,255,255,0.6);
-  --hl-color: rgba(255,255,255,0.7);
-  --hl-bg: #2a3141;
-  --hltools-bg: #2c3344;
-  --hltools-color: #90a4ae;
-  --hlnumber-bg: #2a3141;
-  --hlnumber-color: rgba(255,255,255,0.4);
-  --hlscrollbar-bg: #30384b;
-  --hlexpand-bg: linear-gradient(180deg, rgba(42,49,65,0.6), rgba(42,49,65,0.9));
 }
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
@@ -5543,18 +5535,9 @@ blockquote.pullquote.right {
   height: 100%;
   content: '';
 }
-[data-theme='dark'] #article-container code {
-  background: #2c2c2c;
-}
-[data-theme='dark'] #article-container pre > code {
-  background: #2a3141;
-}
 [data-theme='dark'] #article-container figure.highlight {
   -webkit-box-shadow: none;
   box-shadow: none;
-}
-[data-theme='dark'] #article-container .note code {
-  background: rgba(27,31,35,0.05);
 }
 [data-theme='dark'] #article-container .aplayer {
   filter: brightness(0.8);
